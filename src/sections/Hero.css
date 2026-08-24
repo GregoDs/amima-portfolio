@@ -1,0 +1,58 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.hero__portrait {
+  position: absolute;
+  top: 34vh;
+  left: 52%;
+  display: block;
+  width: 68vw;
+  max-width: 240px;
+  height: auto;
+  transform: translate(-50%, 0);
+}
+
+.hero__profile {
+  position: absolute;
+  top: 66.25vh;
+  left: 21.45vw;
+  display: grid;
+  grid-template-columns: 5.55rem 1fr;
+  row-gap: 0;
+  margin: 0;
+  color: #000000;
+  font-size: clamp(0.43rem, 0.71vw, 1.06rem);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+.hero__profile-row {
+  display: contents;
+}
+
+.hero__profile dt {
+  margin: 0;
+  text-align: right;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.hero__profile dd {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 1.46rem;
+}
+
+.hero__profile span {
+  display: block;
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+
+}
